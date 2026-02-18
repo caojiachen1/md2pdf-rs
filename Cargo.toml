@@ -1,0 +1,13 @@
+[package]
+name = "md2pdf-rs"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+headless_chrome = "1.0"
+pulldown-cmark = { version = "0.9", features = [] }
+thiserror = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+regex = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+base64 = "0.22"
